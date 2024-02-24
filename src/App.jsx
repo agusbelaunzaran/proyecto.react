@@ -8,7 +8,7 @@ function App() {
     <>
     
      <Navbar/>
-     <ItemListContainer saludo= 'Outlet Ranchos'/>
+     <ItemListContainer saludo= 'SENCILLO indumentaria!'/>
      
     </>
   )
