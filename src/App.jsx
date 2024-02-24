@@ -1,14 +1,14 @@
 import Navbar from "./components/Navbar/Navbar"
-import ItemListContainer from "./components/CartWidget/CartWidget"
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
 
 
 function App() {
 
   return (
     <>
-    <ItemListContainer saludo='Bienvenidos a...'/>
+    
      <Navbar/>
-     
+     <ItemListContainer saludo= 'Outlet Ranchos'/>
      
     </>
   )
