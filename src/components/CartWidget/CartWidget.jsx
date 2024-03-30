@@ -1,11 +1,12 @@
 import cart from './assets/carrito.svg'
+import { Link } from 'react-router-dom'
 
 const CartWidget = () => {
     return(
-        <button>
+        <Link to='/cart'>
             <img width='30px' height='30px' src={cart} />       
             0
-      </button>
+      </Link>
     )
 }
 export default CartWidget

@@ -20,7 +20,7 @@ const ItemListContainer = (props) => {
     },[categoryId ])
     return(
         <main>
-        <h1 style={{ color: 'black',margin: 5, fontSize: 30, display:'flex', justifyContent:'center', background:'grey'}}>{props.saludo}</h1>
+        <h1 style={{ color: 'black',margin: 10, fontSize: 30, display:'flex', justifyContent:'center', background:'rgb(151, 20, 20)'}}>{props.saludo} </h1>
 
         <ItemList products={products}/>
      
