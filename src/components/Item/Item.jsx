@@ -9,7 +9,7 @@ const Item = ({  id, name, category, img, price, stock}) => {
             <h3>{name}</h3>
             <img src={img} style={{width: 200}} />
             <h4>{price}</h4>
-            <Link to={`/item/${id}`}>ver detalle</Link>
+            <Link to={`/item/${id}`}>ver detalle </Link >
            
         </article>
     )

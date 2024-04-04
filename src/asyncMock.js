@@ -8,8 +8,35 @@ const products = [
         stock: 1, 
         description:'Detalle'
     },
-    { id: '2', name: 'samsung s21', price: 800, category: 'celular', img:'https://images.samsung.com/is/image/samsung/p6pim/ar/galaxy-s21/gallery/ar-galaxy-s21-5g-g991-sm-g991bzalaro-thumb-368338803', stock: 16, description:'Descripcion de Samsung s21'},
-    { id: '3', name: 'Ipad 8va generacion', price: 1200, category: 'tablet', img:'https://medias.musimundo.com/medias/00406046-143516-143516-01-143516-01.jpg-size515?context=bWFzdGVyfGltYWdlc3w1MjI1MnxpbWFnZS9qcGVnfGhjMC9oYWMvMTAyODM0OTc0NTU2NDYvMDA0MDYwNDYtMTQzNTE2LTE0MzUxNl8wMS0xNDM1MTZfMDEuanBnX3NpemU1MTV8MzA0NmMzNGFhZjUwMDY2YjY5MjU0MjlkMGJlYWMxODAxZjE5ODJhZmJlOTczZThmZjE2NTQxMjU5NjE2OTA4Yw', stock: 0, description:'Descripcion de Ipad'}
+    
+    { id: '2', name: 'REMINDER', price: '$11.000', category: 'Remeras', img:'https://i.imgur.com/wLQXx1N.jpg', stock: 1, description:'Detalle'},
+    
+    { id: '3', name: 'CREATIVE DIVISION', price: '$11.000', category: 'Remeras', img:'https://i.imgur.com/uwA4WPV.jpg', stock: 1, description:'Detalle'},
+    
+    { id: '4', name: 'VANS', price: '$9.000', category: 'Remeras', img:'https://i.imgur.com/iNA5SAC.jpg', stock: 1, description:'Detalle'},
+
+    { id: '5', name: 'HAND  EYE', price: '$11.000', category: 'Remeras', img:'https://i.imgur.com/5iNVhza.jpeg', stock: 1, description:'Detalle'},
+
+    { id: '6', name: 'M$UP', price: '$11.000', category: 'Remeras', img:'https://i.imgur.com/hw4KPFH.jpeg', stock: 1, description:'Detalle'},
+
+    { id: '7', name: 'BUZO HOLLISTER BORDADO', price: '$23.000', category: 'Buzos', img:'https://i.imgur.com/jSfDwU2.jpeg', stock: 1, description:'Detalle'},
+
+    { id: '8', name: 'BUZO RUSTICO HOLLISTER', price: '$23.000', category: 'Buzos', img:'https://i.imgur.com/0wiwsbz.jpeg', stock: 1, description:'Detalle'},
+
+    { id: '9', name: 'BUZO HOLLISTER BORDADO', price: '$23.000', category: 'Buzos', img:'https://i.imgur.com/Bms5jEL.jpeg', stock: 1, description:'Detalle'},
+
+    { id: '10', name: 'BUZO THE NORTH FACE', price: '$23.000', category: 'Buzos', img:'https://i.imgur.com/1cmzYc9.jpeg', stock: 1, description:'Detalle'},
+
+    { id: '11', name: 'COLE BUXTON', price: '$11.000', category: 'Remeras', img:'https://i.imgur.com/DT3IGKK.jpeg', stock: 1, description:'Detalle'},
+
+    { id: '12', name: 'QUICKSILVER', price: '$11.000', category: 'Remeras', img:'https://i.imgur.com/f5UxE8G.jpeg', stock: 1, description:'Detalle'},
+
+    { id: '13', name: 'DISTORSION', price: '$11.000', category: 'Remeras', img:'https://i.imgur.com/Fmb3Sm6.jpeg', stock: 1, description:'Detalle'},
+
+    { id: '14', name: 'STREETS', price: '$11.000', category: 'Remeras', img:'https://i.imgur.com/SvMEDjW.jpeg', stock: 1, description:'Detalle'},
+
+    { id: '15', name: 'BREAK CONVENTIONS', price: '$11.000', category: '  Remeras', img:'https://i.imgur.com/vsFbiIW.jpeg', stock: 1, description:'Detalle'},
+
 ]
 
 export const getProducts = () => {
