@@ -29,7 +29,7 @@ import { CartContext } from "../CartContext/CartContext"
              quantity === 0 ?(
                      <ItemCount onAdd={handleOnAdd} stock={stock}  />
                 ) : (
-                 <Link to={'/cart'} > Finalizar compra</Link> 
+                 <Link to={'/cart'} style={{color:"white", backgroundColor:'black', borderRadius:5}}> Finalizar compra</Link> 
                  )
                 }
         </article>
